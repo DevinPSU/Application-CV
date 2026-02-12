@@ -1,5 +1,7 @@
 [devinjhendrix@gmail.com](mailto:devinjhendrix@gmail.com)							                402-560-9375
 
+![/workspaces/Application-CV/dxh5766-1-scaled.jpg]
+
 **Objective**  
 I am interested in studying proteins involved in bacterial signaling pathways.  
 **Education**  
