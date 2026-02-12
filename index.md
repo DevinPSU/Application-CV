@@ -62,7 +62,7 @@ Anticipated Graduation Date: May 2030
 
 **Honors and Awards**
 
-* Distinguished Graduate Fellowship & University Graduate Fellowship Recipient August 2025-May 2026\. Award Amount covered salary of $42,000 along with a total tuition coverage of $21,620. Total Fellowship amount of $63,620.   
+* University Graduate Scholarship August 2026-May 2027\. Award Amount covered salary of $42,000 along with a total tuition coverage of $21,620. Total Fellowship amount of $63,620.   
 * Distinguished Graduate Fellowship & University Graduate Fellowship Recipient August 2025-May 2026\. Award Amount covered salary of $42,000 along with a total tuition coverage of $21,620. Total Fellowship amount of $63,620.   
 * Coleman Award Recipient 2025\. An award provided to up to two exceptional biochemistry majors who exemplify community, research, and what it means to be a Nebraska Wesleyan scholar. This award was accompanied by a $700 award and a nameplate on a placard for Coleman recipients.   
 * 2025 Student Life Leadership Award. Provided to students who demonstrate excellence in scholarships, campus leadership, and service.   
