@@ -79,11 +79,11 @@ page-layout: full
 </div>
 </a>
 
-<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
+<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
 <img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
 <h4>Research Poster</h4>
-<p>Protein purification verification</p>
+<p>Poster Presentation</p>
 </div>
 </a>
 
