@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "assets/**"
 
 website:
   title: "Devin J. Hendrix"
@@ -23,7 +25,31 @@ website:
 format:
   html:
     theme: none
-    css: styles.css
+    css:
+      - styles.css
+      - assets/css/themes.css
+      - assets/css/interactive.css
+      - assets/css/animations.css
     toc: false
     fontsize: 15px
     mainfont: "Inconsolata, monospace"
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css">
+          <script>
+            // Apply theme before render to prevent FOUC
+            (function() {
+              const savedTheme = localStorage.getItem('theme') || 'dark';
+              document.documentElement.setAttribute('data-theme', savedTheme);
+            })();
+          </script>
+    include-after-body:
+      - text: |
+          <script src="/assets/js/libs/gsap.min.js"></script>
+          <script src="/assets/js/libs/ScrollTrigger.min.js"></script>
+          <script src="/assets/js/libs/lenis.min.js"></script>
+          <script src="/assets/js/libs/glightbox.min.js"></script>
+          <script src="/assets/js/libs/swiper-bundle.min.js"></script>
+          <script src="/assets/js/libs/chart.umd.min.js"></script>
+          <script type="module" src="/assets/js/main.js"></script>

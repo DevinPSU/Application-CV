@@ -1,0 +1,309 @@
+/* Animation Definitions and Utility Classes */
+
+/* ============================================
+   FADE-IN UTILITY CLASSES
+   ============================================ */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-in-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* Disable animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .scroll-arrow {
+    animation: none;
+  }
+}
+
+/* ============================================
+   GLIGHTBOX CUSTOM STYLES
+   ============================================ */
+
+.glightbox-clean .gslide-description {
+  background: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.glightbox-clean .gdesc-inner {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1em;
+}
+
+.glightbox-clean .gslide-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #e47839;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+/* ============================================
+   LAZY LOADING IMAGE EFFECTS
+   ============================================ */
+
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+
+/* Blur-up effect for lazy loaded images */
+img[loading="lazy"]:not(.loaded) {
+  filter: blur(10px);
+}
+
+img[loading="lazy"].loaded {
+  filter: blur(0);
+  transition: filter 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+/* ============================================
+   BUTTON ANIMATIONS
+   ============================================ */
+
+.btn-hover-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-hover-effect::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(228, 120, 57, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn-hover-effect:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* ============================================
+   SECTION REVEAL ANIMATIONS
+   ============================================ */
+
+section {
+  will-change: transform, opacity;
+}
+
+/* Parallax sections */
+[data-parallax] {
+  will-change: transform;
+}
+
+/* ============================================
+   TEXT ANIMATIONS
+   ============================================ */
+
+/* Split text animation (for GSAP) */
+.split-text .char {
+  display: inline-block;
+  transform: translateY(100px) rotate(10deg);
+  opacity: 0;
+}
+
+.split-text .char.animated {
+  transform: translateY(0) rotate(0);
+  opacity: 1;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ============================================
+   LOADING ANIMATIONS
+   ============================================ */
+
+/* Skeleton loading for images */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-secondary) 25%,
+    var(--bg-tertiary) 50%,
+    var(--bg-secondary) 75%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* ============================================
+   SCROLL PROGRESS INDICATOR
+   ============================================ */
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* ============================================
+   HOVER EFFECTS
+   ============================================ */
+
+/* Underline animation for links */
+.animated-underline {
+  position: relative;
+}
+
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-primary);
+  transition: width 0.3s ease;
+}
+
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+/* ============================================
+   CARD ANIMATIONS
+   ============================================ */
+
+/* Float effect */
+.float-on-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.float-on-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px var(--shadow-color);
+}
+
+/* Tilt effect */
+.tilt-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.tilt-on-hover:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+}
+
+/* ============================================
+   GLITCH EFFECT (Optional)
+   ============================================ */
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.glitch {
+  animation: glitch 0.3s infinite;
+  animation-play-state: paused;
+}
+
+.glitch:hover {
+  animation-play-state: running;
+}
+
+/* ============================================
+   TIMELINE ANIMATIONS
+   ============================================ */
+
+.timeline-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 60px var(--shadow-color);
+}
+
+/* ============================================
+   FOCUS STYLES (Accessibility)
+   ============================================ */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Remove default focus ring */
+:focus {
+  outline: none;
+}
+
+/* ============================================
+   PAGE TRANSITION
+   ============================================ */
+
+body {
+  animation: pageLoad 0.5s ease-out;
+}
+
+@keyframes pageLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

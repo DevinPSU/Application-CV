@@ -3,7 +3,8 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Inconsolata:wght@400;700&display=swap');
 
-/* Color variables */
+/* Color variables - now managed by themes.css */
+/* Keeping these for backwards compatibility */
 :root {
   --color-orange: #e47839;
   --color-blue: #002fa7;
@@ -25,8 +26,8 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-family: 'Inconsolata', monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -36,14 +37,14 @@ html, body {
 
 /* Main content wrapper */
 #quarto-content {
-  background-color: var(--color-black);
+  background-color: var(--bg-primary);
   min-height: 100vh;
   padding: 30px;
 }
 
 /* Navigation bar styling */
 .navbar {
-  background-color: var(--color-black) !important;
+  background-color: var(--bg-primary) !important;
   border-bottom: none !important;
   padding: 20px 30px !important;
 }
@@ -52,28 +53,28 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
-  color: var(--color-white) !important;
+  color: var(--text-primary) !important;
   letter-spacing: -0.02em;
 }
 
 .navbar-nav .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: var(--color-white) !important;
+  color: var(--text-primary) !important;
   font-size: 1.2em;
   transition: color 0.1s linear;
   margin: 0 10px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--color-orange) !important;
+  color: var(--accent-primary) !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--text-primary);
   margin-top: 2em;
   margin-bottom: 0.8em;
   line-height: 1.2;
@@ -87,7 +88,7 @@ h1 {
 
 h2 {
   font-size: 2.2em;
-  color: var(--color-white);
+  color: var(--text-primary);
   position: relative;
 }
 
@@ -96,7 +97,7 @@ h2::after {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: var(--color-orange);
+  background-color: var(--accent-primary);
   margin-top: 10px;
 }
 
@@ -115,7 +116,7 @@ h3 {
   font-size: 4em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--text-primary);
   margin-bottom: 0.3em;
   letter-spacing: -0.02em;
 }
@@ -143,14 +144,14 @@ main > p:first-of-type {
 
 /* Links */
 a {
-  color: var(--color-white);
+  color: var(--text-primary);
   text-decoration: none;
   position: relative;
   transition: color 0.1s linear;
 }
 
 a:hover {
-  color: var(--color-orange);
+  color: var(--accent-primary);
 }
 
 /* Profile image styling */
@@ -159,7 +160,7 @@ img[alt="Me"] {
   margin: 30px auto;
   max-width: 300px;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px var(--color-orange);
+  box-shadow: 0 0 0 3px var(--accent-primary);
   transition: transform 0.3s ease;
 }
 
@@ -182,7 +183,7 @@ li {
 strong {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--text-primary);
   font-size: 1.15em;
 }
 
@@ -201,16 +202,16 @@ strong {
 }
 
 .quarto-post {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--bg-secondary);
   padding: 25px;
   margin-bottom: 25px;
-  border-left: 4px solid var(--color-orange);
+  border-left: 4px solid var(--accent-primary);
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .quarto-post:hover {
   transform: translateX(5px);
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: var(--bg-tertiary);
 }
 
 .quarto-post .listing-title {
@@ -218,17 +219,17 @@ strong {
   font-weight: 700;
   font-size: 1.8em;
   margin-bottom: 0.5em;
-  color: var(--color-white);
+  color: var(--text-primary);
 }
 
 .quarto-post .listing-subtitle,
 .quarto-post .listing-description {
-  color: var(--color-gray-light);
+  color: var(--text-secondary);
   margin-bottom: 0.8em;
 }
 
 .quarto-post .listing-date {
-  color: var(--color-orange);
+  color: var(--accent-primary);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -240,7 +241,7 @@ strong {
 .quarto-post .listing-category {
   display: inline-block;
   background-color: rgba(228, 120, 57, 0.2);
-  color: var(--color-orange);
+  color: var(--accent-primary);
   padding: 5px 15px;
   margin-right: 10px;
   border-radius: 20px;
@@ -251,8 +252,8 @@ strong {
 /* Code blocks */
 pre, code {
   font-family: 'Inconsolata', monospace;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: var(--code-bg);
+  border: 1px solid var(--border-color);
 }
 
 pre {
@@ -270,9 +271,9 @@ code {
 
 /* Footer */
 .nav-footer {
-  background-color: var(--color-black);
-  color: var(--color-gray-light);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-color);
   padding: 30px;
   text-align: center;
   font-size: 0.9em;
@@ -312,13 +313,13 @@ html {
 
 /* Selection styling */
 ::selection {
-  background-color: var(--color-orange);
-  color: var(--color-white);
+  background-color: var(--accent-primary);
+  color: var(--text-inverted);
 }
 
 ::-moz-selection {
-  background-color: var(--color-orange);
-  color: var(--color-white);
+  background-color: var(--accent-primary);
+  color: var(--text-inverted);
 }
 
 /* Animation for page load */
@@ -344,7 +345,7 @@ main {
 }
 
 .bi:hover {
-  color: var(--color-orange) !important;
+  color: var(--accent-primary) !important;
 }
 
 /* Table styling */
@@ -356,7 +357,7 @@ table {
 
 th, td {
   padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
   text-align: left;
 }
 
@@ -368,17 +369,17 @@ th {
 
 /* Blockquote styling */
 blockquote {
-  border-left: 4px solid var(--color-blue);
+  border-left: 4px solid var(--accent-secondary);
   padding-left: 20px;
   margin: 2em 0;
   font-style: italic;
-  color: var(--color-gray-light);
+  color: var(--text-secondary);
 }
 
 /* Horizontal rule */
 hr {
   border: none;
   height: 2px;
-  background: linear-gradient(to right, var(--color-orange), var(--color-blue));
+  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
   margin: 3em 0;
 }
