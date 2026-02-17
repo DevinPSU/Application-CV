@@ -1,34 +1,384 @@
-/* Custom styles for the website */
+/* Because-inspired design for academic CV website */
 
-/* Center and style the profile image */
-img[alt="Me"] {
-  display: block;
-  margin: 20px auto;
-  max-width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Inconsolata:wght@400;700&display=swap');
+
+/* Color variables */
+:root {
+  --color-orange: #e47839;
+  --color-blue: #002fa7;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #383838;
+  --color-gray-light: #858585;
 }
 
-/* Improve spacing for sections */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main content wrapper */
+#quarto-content {
+  background-color: var(--color-black);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* Navigation bar styling */
+.navbar {
+  background-color: var(--color-black) !important;
+  border-bottom: none !important;
+  padding: 20px 30px !important;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: var(--color-white) !important;
+  letter-spacing: -0.02em;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: var(--color-white) !important;
+  font-size: 1.2em;
+  transition: color 0.1s linear;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-orange) !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  letter-spacing: -0.02em;
+}
+
 h2 {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  color: #2c3e50;
+  font-size: 2.2em;
+  color: var(--color-white);
+  position: relative;
 }
 
-/* Style the contact information */
-p:first-of-type {
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--color-orange);
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Title block */
+.quarto-title-block {
   text-align: center;
-  font-size: 1.1em;
-  margin-bottom: 20px;
+  padding: 2em 0;
+  border-bottom: none;
 }
 
-/* Improve list styling */
-ul {
+.quarto-title .title {
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 0.3em;
+  letter-spacing: -0.02em;
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Paragraphs and text */
+p {
+  margin-bottom: 1.3em;
   line-height: 1.8;
 }
 
-/* Add some padding to the main content */
-.quarto-title-block {
-  padding-bottom: 1em;
+/* Contact info at top - center and style */
+main > p:first-of-type {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 20px 0 40px 0;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  color: var(--color-white);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.1s linear;
+}
+
+a:hover {
+  color: var(--color-orange);
+}
+
+/* Profile image styling */
+img[alt="Me"] {
+  display: block;
+  margin: 30px auto;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--color-orange);
+  transition: transform 0.3s ease;
+}
+
+img[alt="Me"]:hover {
+  transform: scale(1.05);
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-bottom: 1.5em;
+  line-height: 1.9;
+}
+
+li {
+  margin-bottom: 0.8em;
+}
+
+/* Strong/bold text */
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 1.15em;
+}
+
+/* Accent colors for specific elements */
+.orange {
+  color: var(--color-orange);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+/* Blog listing styles */
+.quarto-listing {
+  margin-top: 2em;
+}
+
+.quarto-post {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-left: 4px solid var(--color-orange);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.quarto-post:hover {
+  transform: translateX(5px);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.quarto-post .listing-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+  color: var(--color-white);
+}
+
+.quarto-post .listing-subtitle,
+.quarto-post .listing-description {
+  color: var(--color-gray-light);
+  margin-bottom: 0.8em;
+}
+
+.quarto-post .listing-date {
+  color: var(--color-orange);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.quarto-post .listing-categories {
+  margin-top: 15px;
+}
+
+.quarto-post .listing-category {
+  display: inline-block;
+  background-color: rgba(228, 120, 57, 0.2);
+  color: var(--color-orange);
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: 'Inconsolata', monospace;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+pre {
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+code {
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: var(--color-black);
+  color: var(--color-gray-light);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  html, body {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .quarto-title .title {
+    font-size: 2.8em;
+  }
+
+  img[alt="Me"] {
+    max-width: 200px;
+  }
+
+  #quarto-content {
+    padding: 15px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+::-moz-selection {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+/* Animation for page load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Navbar icons */
+.bi {
+  font-size: 1.2em;
+  transition: color 0.1s linear;
+}
+
+.bi:hover {
+  color: var(--color-orange) !important;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+th {
+  background-color: rgba(228, 120, 57, 0.2);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid var(--color-blue);
+  padding-left: 20px;
+  margin: 2em 0;
+  font-style: italic;
+  color: var(--color-gray-light);
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, var(--color-orange), var(--color-blue));
+  margin: 3em 0;
 }
