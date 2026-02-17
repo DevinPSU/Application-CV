@@ -46,9 +46,9 @@ format:
           </script>
     include-after-body:
       - text: |
-          <script src="/assets/js/libs/gsap.min.js"></script>
-          <script src="/assets/js/libs/ScrollTrigger.min.js"></script>
-          <script src="/assets/js/libs/glightbox.min.js"></script>
-          <script src="/assets/js/libs/swiper-bundle.min.js"></script>
-          <script src="/assets/js/libs/chart.umd.min.js"></script>
-          <script type="module" src="/assets/js/main.js"></script>
+          <script src="assets/js/libs/gsap.min.js"></script>
+          <script src="assets/js/libs/ScrollTrigger.min.js"></script>
+          <script src="assets/js/libs/glightbox.min.js"></script>
+          <script src="assets/js/libs/swiper-bundle.min.js"></script>
+          <script src="assets/js/libs/chart.umd.min.js"></script>
+          <script type="module" src="assets/js/main.js"></script>

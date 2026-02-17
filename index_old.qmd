@@ -1,0 +1,319 @@
+---
+title: ""
+page-layout: full
+---
+
+<!-- Hero Section -->
+<section id="hero" class="hero-section" data-parallax="0.3">
+  <div class="hero-content">
+    <img src="dxh5766-1-scaled.jpg" alt="Devin J. Hendrix" class="hero-image">
+    <h1 class="hero-title">Devin J. Hendrix</h1>
+    <p class="hero-subtitle">Ph.D. Student in Biochemistry & Molecular Biology</p>
+    <p class="hero-tagline">Pennsylvania State University</p>
+    <div class="hero-contact">
+      <a href="mailto:devinjhendrix@gmail.com">devinjhendrix@gmail.com</a> •
+      <a href="tel:402-560-9375">402-560-9375</a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section" data-parallax="0.5">
+  <div class="section-content">
+    <h2>About My Research</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">I am interested in studying proteins involved in bacterial signaling pathways.</p>
+        <p>Currently, I am a graduate student co-advised by <strong>Jean-Paul Armache</strong> and <strong>Katsuhiko Murakami</strong> in the Department of Biochemistry & Molecular Biology at Pennsylvania State University. My research focuses on <strong>Cryo-EM data processing</strong>, <strong>experimental design</strong>, <strong>methodology development</strong>, <strong>protein purification</strong>, and <strong>structural characterization</strong>.</p>
+        <p>My work combines cutting-edge structural biology techniques with computational approaches to understand fundamental mechanisms in bacterial systems.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Research Institutions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">Poster Presentations</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">$130K+</div>
+          <div class="stat-label">Fellowship Awards</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Research Gallery Section -->
+<section id="research-gallery" class="research-gallery-section">
+  <div class="section-content">
+    <h2>Research Highlights</h2>
+    <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
+    <div class="research-gallery">
+      <!-- Gallery Item 1: Cryo-EM Structure -->
+      <a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=Cryo-EM+Structure" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Cryo-EM Structure Analysis; description: High-resolution cryo-electron microscopy structure showing protein architecture at near-atomic resolution.">
+        <img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=Cryo-EM+Structure" alt="Cryo-EM protein structure" loading="lazy">
+        <div class="gallery-caption">
+          <h4>Cryo-EM Structure</h4>
+          <p>Near-atomic resolution structural analysis</p>
+        </div>
+      </a>
+
+      <!-- Gallery Item 2: Western Blot -->
+      <a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Western Blot Analysis; description: Protein expression and purification validation using immunoblotting techniques.">
+        <img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Western+Blot" alt="Western blot results" loading="lazy">
+        <div class="gallery-caption">
+          <h4>Western Blot Analysis</h4>
+          <p>Protein expression validation</p>
+        </div>
+      </a>
+
+      <!-- Gallery Item 3: SDS-PAGE Gel -->
+      <a href="https://via.placeholder.com/1200x900/383838/ffffff?text=SDS-PAGE+Gel" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
+        <img src="https://via.placeholder.com/600x450/383838/ffffff?text=SDS-PAGE+Gel" alt="SDS-PAGE gel electrophoresis" loading="lazy">
+        <div class="gallery-caption">
+          <h4>SDS-PAGE Analysis</h4>
+          <p>Protein purification verification</p>
+        </div>
+      </a>
+
+      <!-- Gallery Item 4: ITC Data -->
+      <a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=ITC+Binding+Data" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Isothermal Titration Calorimetry; description: Thermodynamic binding analysis showing protein-protein interaction parameters.">
+        <img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=ITC+Data" alt="Isothermal titration calorimetry plot" loading="lazy">
+        <div class="gallery-caption">
+          <h4>ITC Binding Analysis</h4>
+          <p>Thermodynamic characterization</p>
+        </div>
+      </a>
+
+      <!-- Gallery Item 5: Microscopy -->
+      <a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Fluorescence+Microscopy" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Fluorescence Microscopy; description: Bacterial cells visualized using fluorescence microscopy to study protein localization.">
+        <img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Microscopy" alt="Fluorescence microscopy image" loading="lazy">
+        <div class="gallery-caption">
+          <h4>Fluorescence Microscopy</h4>
+          <p>Cellular protein localization</p>
+        </div>
+      </a>
+
+      <!-- Gallery Item 6: Lab Work -->
+      <a href="https://via.placeholder.com/1200x900/383838/ffffff?text=Laboratory+Research" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Laboratory Research; description: Hands-on research work in the laboratory conducting biochemical assays.">
+        <img src="https://via.placeholder.com/600x450/383838/ffffff?text=Lab+Research" alt="Laboratory research work" loading="lazy">
+        <div class="gallery-caption">
+          <h4>Laboratory Research</h4>
+          <p>Experimental biochemistry</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Visualization Section -->
+<section id="skills" class="skills-section" data-parallax="0.4">
+  <div class="section-content">
+    <h2>Technical Expertise</h2>
+    <div class="skills-container">
+      <div class="skills-chart-wrapper">
+        <canvas id="skills-chart"></canvas>
+      </div>
+      <div class="skills-list">
+        <h3>Core Techniques</h3>
+        <ul class="techniques-grid">
+          <li><strong>Structural Biology:</strong> Cryo-EM, X-ray Crystallography, Data Processing (cryoSPARC, RELION)</li>
+          <li><strong>Protein Biochemistry:</strong> Protein Purification (Ni-NTA, Strep-tag), Western Blotting, SDS-PAGE</li>
+          <li><strong>Biophysical Methods:</strong> Isothermal Titration Calorimetry (ITC), UV-Vis Spectroscopy, HPLC</li>
+          <li><strong>Molecular Biology:</strong> Cell Transformation, Protein Overexpression, PCR, DNA Extraction</li>
+          <li><strong>Computational:</strong> Chimera X, PyMOL, Data Visualization, Structural Analysis</li>
+          <li><strong>Specialized Assays:</strong> Pull-down Assays, Phosphorylation Assays, Gas Chromatography</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Project Timeline Section -->
+<section id="timeline" class="timeline-section">
+  <div class="section-content">
+    <h2>Research Timeline</h2>
+    <p class="section-intro">My journey through structural biology and biochemistry research</p>
+    <div class="project-timeline swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Graduate Research (2025-Present) -->
+        <div class="swiper-slide timeline-card">
+          <div class="timeline-year">2025-Present</div>
+          <h3>Graduate Student</h3>
+          <p class="timeline-institution">Pennsylvania State University</p>
+          <p class="timeline-pi">Co-advised by Jean-Paul Armache & Katsuhiko Murakami</p>
+          <p class="timeline-description">Focusing on Cryo-EM data processing, experimental design, methodology development, and structural characterization of proteins.</p>
+          <div class="timeline-achievement">
+            <strong>Key Achievement:</strong> University Graduate Fellowship ($63,620)
+          </div>
+        </div>
+
+        <!-- UNL NCIBC Fellow (2024) -->
+        <div class="swiper-slide timeline-card">
+          <div class="timeline-year">Jan-Aug 2024</div>
+          <h3>NCIBC Undergraduate Research Fellow</h3>
+          <p class="timeline-institution">University of Nebraska-Lincoln</p>
+          <p class="timeline-pi">PI: Dr. Limei Zhang</p>
+          <p class="timeline-description">Investigating SigM-RsmA protein interactions in Mycobacterium tuberculosis antibiotic resistance pathways. Learned Cryo-EM, Western blotting, and advanced purification techniques.</p>
+          <div class="timeline-achievement">
+            <strong>Key Achievement:</strong> Presented at NSF LSAMP PI/PD Meeting in Washington, D.C.
+          </div>
+        </div>
+
+        <!-- UIOWA REU (2023) -->
+        <div class="swiper-slide timeline-card">
+          <div class="timeline-year">May-July 2023</div>
+          <h3>NSF REU Research Fellow</h3>
+          <p class="timeline-institution">University of Iowa</p>
+          <p class="timeline-pi">PI: Dr. Ernesto Fuentes</p>
+          <p class="timeline-description">Characterized PilZ domain protein interactions with Type IV pili effectors in Pseudomonas aeruginosa twitching motility, linking to virulence mechanisms.</p>
+          <div class="timeline-achievement">
+            <strong>Key Achievement:</strong> Second Place & Favorite Poster at LSAMP Conference
+          </div>
+        </div>
+
+        <!-- UNL CABBI (2022) -->
+        <div class="swiper-slide timeline-card">
+          <div class="timeline-year">May-Aug 2022</div>
+          <h3>NSF & CABBI Summer Research Fellow</h3>
+          <p class="timeline-institution">University of Nebraska-Lincoln</p>
+          <p class="timeline-pi">PI: Dr. Edgar Cahoon</p>
+          <p class="timeline-description">Phenotyping and genotyping transgenic sorghum for renewable fuel applications. Focused on increasing triacylglycerol content through gene insertion.</p>
+          <div class="timeline-achievement">
+            <strong>Key Achievement:</strong> Presented at CABBI conference at UIUC
+          </div>
+        </div>
+
+        <!-- Undergraduate Education -->
+        <div class="swiper-slide timeline-card">
+          <div class="timeline-year">2021-2025</div>
+          <h3>Bachelor of Science</h3>
+          <p class="timeline-institution">Nebraska Wesleyan University</p>
+          <p class="timeline-pi">Biochemistry & Molecular Biology</p>
+          <p class="timeline-description">Comprehensive undergraduate education with focus on biochemistry, molecular biology, and research methodology. Active involvement in LSAMP and STEM mentoring.</p>
+          <div class="timeline-achievement">
+            <strong>Key Achievement:</strong> Coleman Award Recipient (Top 2 graduating biochemistry majors)
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Full CV Content Section -->
+<section id="cv-content" class="cv-section">
+  <div class="section-content">
+
+    <h2>Education</h2>
+    <div class="cv-block fade-in">
+      <p><strong>Ph.D. Biochemistry & Molecular Biology</strong><br>
+      The Pennsylvania State University<br>
+      Anticipated Graduation: May 2030</p>
+
+      <p><strong>Bachelor of Science Biochemistry & Molecular Biology '25</strong><br>
+      Nebraska Wesleyan University (NWU), Lincoln, NE</p>
+    </div>
+
+    <h2>Scientific Research Poster Presentations</h2>
+    <div class="cv-block fade-in">
+      <ul>
+        <li>Hendrix Devin, Beltran DG, Zhang L. Mechanistic Investigation of SigM-Dependent Distributive Conjugal Transfer in Mycobacteria. 2024 NSF LSAMP PI/PD Meeting: Enhancing Social Mobility Through STEM: The CHIPS & Science Act. October 25, 2024. Washington, D.C.</li>
+        <li>Hendrix Devin, Beltran DG, Zhang L. Mechanistic Investigation of SigM-Dependent Distributive Conjugal Transfer in Mycobacteria. UNL Summer Research Symposium. August 6, 2024. Lincoln, NE</li>
+        <li>Hendrix Devin, Hammons NA, Yarrington KD, Limoli DH, Fuentes EJ. Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility In *Pseudomonas aeruginosa*. NWU Spring Science Symposium. April 24, 2024. Lincoln, NE</li>
+        <li>Hendrix Devin, Hammons NA, Yarrington KD, Limoli DH, Fuentes EJ. Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility In *Pseudomonas aeruginosa*. LSAMP Research Conference. February 10, 2024. Ames, IA</li>
+        <li>Hammons NA, Yarrington KD, Ptak CP, Hendrix DJ, Limoli DH, Fuentes EJ. PA0012 is a Cyclic di-GMP Effector that Biases *P. aeruginosa* Type IV Pili Twitching Motility. Gibbs Conference on Biological Thermodynamics. October 2023. Carbondale, IL (Presented by Nicholas Hammons)</li>
+        <li>Hendrix Devin, Hammons NA, Yarrington KD, Limoli DH, Fuentes EJ. Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility In *Pseudomonas aeruginosa*. UIOWA Summer Research Symposium. July 26, 2023. Iowa City, IA</li>
+        <li>Hendrix Devin, Park K, Cahoon E. Phenotyping and Genotyping Transgenic High-Energy Sorghum. LSAMP Research Conference. March 5, 2023. Iowa City, IA</li>
+        <li>Hendrix Devin, Park K, Cahoon E. Phenotyping and Genotyping Transgenic High-Energy Sorghum. UNL Summer Research Symposium. August 6, 2022. Lincoln, NE</li>
+      </ul>
+    </div>
+
+    <h2>Scientific Research Oral Presentations</h2>
+    <div class="cv-block fade-in">
+      <ul>
+        <li>Hendrix Devin, Beltran DG, Zhang L. Mechanistic Investigation of SigM-Dependent Distributive Conjugal Transfer in Mycobacteria. Redox Biology Program Oral Presentation at University of Nebraska-Lincoln, August 6, 2024. Lincoln, NE</li>
+        <li>Hendrix Devin. Center for Advanced Bioenergy and Bioproducts Innovation (CABBI) conference at University of Illinois Urbana-Champaign. Undergraduate research presentation. June 28-30th, 2022. Champaign, IL</li>
+      </ul>
+    </div>
+
+    <h2>Honors and Awards</h2>
+    <div class="cv-block fade-in">
+      <ul>
+        <li>University Graduate Scholarship August 2026-May 2027. Award Amount covered salary of $42,000 along with a total tuition coverage of $21,620. Total Fellowship amount of $63,620.</li>
+        <li>Distinguished Graduate Fellowship & University Graduate Fellowship Recipient August 2025-May 2026. Award Amount covered salary of $42,000 along with a total tuition coverage of $21,620. Total Fellowship amount of $63,620.</li>
+        <li>Coleman Award Recipient 2025. An award provided to up to two exceptional biochemistry majors who exemplify community, research, and what it means to be a Nebraska Wesleyan scholar. This award was accompanied by a $700 award and a nameplate on a placard for Coleman recipients.</li>
+        <li>2025 Student Life Leadership Award. Provided to students who demonstrate excellence in scholarships, campus leadership, and service.</li>
+        <li>Nebraska Center for Integrated Biomolecular Communication (NCIBC) Undergraduate Student Fellowship $5,000. June 3 - August 2, 2024.</li>
+        <li>"Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility In Pseudomonas aeruginosa", Second Place Student Poster, IINSPIRE LSAMP Annual Conference Ames, Iowa, February 9-10, 2024</li>
+        <li>"Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility In Pseudomonas aeruginosa", Favorite Poster Winner, IINSPIRE LSAMP Annual Conference Ames, Iowa, February 9-10, 2024</li>
+        <li>Nebraska Wesleyan Dean's List 2021-2022, 2024</li>
+      </ul>
+    </div>
+
+    <h2>Leadership</h2>
+    <div class="cv-block fade-in">
+      <ul>
+        <li><strong>Howard Hughes Medical Institute (HHMI) Peer Academic Collaborative Community (PACC) STEM Mentor</strong> (September 2024 - December 2024)<br>
+        A new program formatted like recitation to decrease the DFW (grade of D, F, and withdrawal) rate of students taking principles of chemistry. Meets with students on Thursday evenings from 7:00pm-8:30pm in a classroom setting with one or two other PACC mentors and reviews material from their classes, teaches material pertinent to their courses, and helps facilitate a community for students to help one another with their courses.</li>
+
+        <li><strong>Howard Hughes Medical Institute (HHMI) NWU STEM Mentor</strong> (August 2023-May 2025)<br>
+        Part of a new pilot program to provide mentors to incoming freshmen and sophomores to help guide and assist them throughout their academic career.</li>
+
+        <li><strong>Louis Stokes Alliance for Minority Scholar (LSAMP)</strong> (August 2021 - Present)<br>
+        Meet monthly to discuss ways to advance education and build a strong support system through networking. Chosen as one of two students to represent the Iowa, Illinois, Nebraska conference (IINSPIRE) of LSAMP. Presented at the 2024 NSF LSAMP PI/PD Meeting: Enhancing Social Mobility Through STEM: The CHIPS & Science Act Conference, (October 24-26).</li>
+      </ul>
+    </div>
+
+    <h2>University Involvement</h2>
+    <div class="cv-block fade-in">
+      <ul>
+        <li><strong>International Relations Organization</strong> (August 2021 - May 2025)<br>
+        Ambassador to international and foreign exchange students. Help students adjust to life in America and learn about their respective cultures, make their bedding, help them with questions relating to school and the United States, help them with any forms or work they need help with or direct them to someone who can.</li>
+
+        <li><strong>International Pal</strong> (January 2022 - May 2025)<br>
+        Sponsored nine foreign exchange students. Met them upon arrival to the university, assisted with housing, and facilitated their introduction to a new home at Nebraska Wesleyan University.</li>
+
+        <li><strong>Global Village Volunteering</strong> (Fall 2022, 2023, 2024)<br>
+        Global Village is an annual on campus event where students can visit tables set up by international students who present information about their countries and can answer questions relating to their cultural background. Volunteers help set up tables, decorations, signs, direct performers, and clean up after the event has ended. Volunteering lasts from 2:00pm -7:30pm.</li>
+
+        <li><strong>STEM Seminar</strong> (August 2021-May 2022)<br>
+        Attend weekly seminars where scientists present their research and take questions relating to their field and how research is conducted.</li>
+
+        <li><strong>Library Circulation Desk Employee</strong> (August 2022-December 2023, January 2025-May 2025)<br>
+        Employed by Nebraska Wesleyan University to help students who visit the library conduct academic research and learn scholarly skills.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="section-content">
+    <h2>Get In Touch</h2>
+    <p class="contact-intro">Interested in collaboration or want to discuss research?</p>
+    <div class="contact-links">
+      <a href="mailto:devinjhendrix@gmail.com" class="contact-btn">
+        <span class="contact-icon">✉️</span>
+        <span>devinjhendrix@gmail.com</span>
+      </a>
+      <a href="https://github.com/devinjhendrix" class="contact-btn">
+        <span class="contact-icon">💻</span>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </div>
+</section>
