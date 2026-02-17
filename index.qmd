@@ -79,10 +79,10 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=SDS-PAGE+Gel" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
-<img src="https://via.placeholder.com/600x450/383838/ffffff?text=SDS-PAGE+Gel" alt="SDS-PAGE gel electrophoresis" loading="lazy">
+<a href="https://www.researchgate.net/publication/6074678/figure/fig4/AS:667608739246086@1536181735272/Native-gel-studies-of-the-interaction-between-RsmA-and-M-A-RsmA-and-or-M-as-indicated.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
+<img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
-<h4>SDS-PAGE Analysis</h4>
+<h4>Research Poster</h4>
 <p>Protein purification verification</p>
 </div>
 </a>
