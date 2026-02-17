@@ -79,13 +79,13 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=ITC+Binding+Data" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Isothermal Titration Calorimetry; description: Thermodynamic binding analysis showing protein-protein interaction parameters.">
-<img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=ITC+Data" alt="Isothermal titration calorimetry plot" loading="lazy">
+<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
 <div class="gallery-caption">
-<h4>ITC Binding Analysis</h4>
-<p>Thermodynamic characterization</p>
+<h4>Research Poster</h4>
+<p>Poster Presentation 2024</p>
 </div>
 </a>
+
 
 <a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Fluorescence+Microscopy" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Fluorescence Microscopy; description: Bacterial cells visualized using fluorescence microscopy to study protein localization.">
 <img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Microscopy" alt="Fluorescence microscopy image" loading="lazy">
