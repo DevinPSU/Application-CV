@@ -4,7 +4,6 @@
  */
 
 import themeSwitcher from './modules/theme-switcher.js';
-import { initSmoothScroll } from './modules/smooth-scroll.js';
 import { initScrollAnimations } from './modules/scroll-animations.js';
 import { initGallery } from './modules/gallery.js';
 import { initCarousel } from './modules/carousel.js';
@@ -19,17 +18,11 @@ function init() {
   // 1. Theme system (already initialized on import)
   console.log('✓ Theme system loaded');
 
-  // 2. Smooth scrolling (desktop only)
-  const lenis = initSmoothScroll();
-  if (lenis) {
-    console.log('✓ Smooth scroll initialized');
-  }
-
-  // 3. Scroll animations
+  // 2. Scroll animations
   initScrollAnimations();
   console.log('✓ Scroll animations initialized');
 
-  // 4. Interactive components
+  // 3. Interactive components
   // These are initialized conditionally based on DOM elements
 
   // Research gallery

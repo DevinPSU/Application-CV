@@ -31,6 +31,8 @@ export function initScrollAnimations() {
   // Register ScrollTrigger plugin
   gsap.registerPlugin(ScrollTrigger);
 
+  // Note: Smooth scrolling removed - using native browser scroll
+
   // Parallax sections
   initParallax();
 
