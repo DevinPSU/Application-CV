@@ -87,11 +87,11 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa.">
-<img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<a href="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<img src="Hendrix Devin 2023 Research Poster.png" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
-<h4>Pseudomonas aeruginosa Secretion System</h4>
-<p>UIOWA 2023 Poster</p>
+<h4>Research Poster</h4>
+<p>Poster Presentation</p>
 </div>
 </a>
 
