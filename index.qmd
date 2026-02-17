@@ -99,8 +99,6 @@ page-layout: full
 <a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
 <a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0011.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
 <img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" alt="Fluorescence microscopy image" loading="lazy">
-<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" alt="Fluorescence microscopy image" loading="lazy">
-<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" alt="Fluorescence microscopy image" loading="lazy">
 <div class="gallery-caption">
 <h4>Slide Presentation</h4>
 <p>Slide Presentation</p>
