@@ -63,8 +63,8 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Western Blot Analysis; description: Protein expression and purification validation using immunoblotting techniques.">
-<img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Western+Blot" alt="Western blot results" loading="lazy">
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<img src="" <img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
 <div class="gallery-caption">
 <h4>Western Blot Analysis</h4>
 <p>Protein expression validation</p>
