@@ -87,11 +87,12 @@ page-layout: full
 </a>
 
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Fluorescence+Microscopy" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Fluorescence Microscopy; description: Bacterial cells visualized using fluorescence microscopy to study protein localization.">
-<img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Microscopy" alt="Fluorescence microscopy image" loading="lazy">
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0002.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0003.jpg" alt="Fluorescence microscopy image" loading="lazy">
 <div class="gallery-caption">
-<h4>Fluorescence Microscopy</h4>
-<p>Cellular protein localization</p>
+<h4>Slide Presentation</h4>
+<p>Slide Presentation</p>
 </div>
 </a>
 
