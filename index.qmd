@@ -55,7 +55,7 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; description: Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum.">
 <img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
 <div class="gallery-caption">
 <h4>Sorghum Genotyping and Phenotyping</h4>
@@ -63,7 +63,7 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa.">
 <img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
 <div class="gallery-caption">
 <h4>Pseudomonas aeruginosa Secretion System</h4>
