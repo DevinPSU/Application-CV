@@ -79,7 +79,7 @@ page-layout: full
 </div>
 </a>
 
-<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Protein_L_1MHH.png/500px-Protein_L_1MHH.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
+<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
 <img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
 <h4>Research Poster</h4>
