@@ -55,30 +55,6 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
-<a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=ITC+Binding+Data" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Isothermal Titration Calorimetry; description: Thermodynamic binding analysis showing protein-protein interaction parameters.">
-<img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=ITC+Data" alt="Isothermal titration calorimetry plot" loading="lazy">
-<div class="gallery-caption">
-<h4>ITC Binding Analysis</h4>
-<p>Thermodynamic characterization</p>
-</div>
-</a>
-
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Fluorescence+Microscopy" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Fluorescence Microscopy; description: Bacterial cells visualized using fluorescence microscopy to study protein localization.">
-<img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Microscopy" alt="Fluorescence microscopy image" loading="lazy">
-<div class="gallery-caption">
-<h4>Fluorescence Microscopy</h4>
-<p>Cellular protein localization</p>
-</div>
-</a>
-
-<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=Laboratory+Research" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Laboratory Research; description: Hands-on research work in the laboratory conducting biochemical assays.">
-<img src="https://via.placeholder.com/600x450/383838/ffffff?text=Lab+Research" alt="Laboratory research work" loading="lazy">
-<div class="gallery-caption">
-<h4>Laboratory Research</h4>
-<p>Experimental biochemistry</p>
-</div>
-</a>
-
 <a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
 <img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
@@ -100,6 +76,30 @@ page-layout: full
 <div class="gallery-caption">
 <h4>Sorghum Genotyping and Phenotyping</h4>
 <p>Poster Presentation 2022</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=ITC+Binding+Data" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Isothermal Titration Calorimetry; description: Thermodynamic binding analysis showing protein-protein interaction parameters.">
+<img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=ITC+Data" alt="Isothermal titration calorimetry plot" loading="lazy">
+<div class="gallery-caption">
+<h4>ITC Binding Analysis</h4>
+<p>Thermodynamic characterization</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Fluorescence+Microscopy" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Fluorescence Microscopy; description: Bacterial cells visualized using fluorescence microscopy to study protein localization.">
+<img src="https://via.placeholder.com/600x450/e47839/ffffff?text=Microscopy" alt="Fluorescence microscopy image" loading="lazy">
+<div class="gallery-caption">
+<h4>Fluorescence Microscopy</h4>
+<p>Cellular protein localization</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=Laboratory+Research" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Laboratory Research; description: Hands-on research work in the laboratory conducting biochemical assays.">
+<img src="https://via.placeholder.com/600x450/383838/ffffff?text=Lab+Research" alt="Laboratory research work" loading="lazy">
+<div class="gallery-caption">
+<h4>Laboratory Research</h4>
+<p>Experimental biochemistry</p>
 </div>
 </a>
 
