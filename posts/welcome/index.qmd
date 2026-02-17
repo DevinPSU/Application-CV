@@ -1,0 +1,118 @@
+---
+title: "Building My Academic Website with Quarto"
+author: "Devin J. Hendrix"
+date: "2026-02-17"
+categories: [web development, quarto, github pages]
+description: "How I created my personal academic website using Quarto and GitHub Pages"
+---
+
+## Introduction
+
+As a graduate student in Biochemistry & Molecular Biology, I wanted to create a professional online presence to showcase my CV and share my research journey through blog posts. After exploring various options, I decided to use [Quarto](https://quarto.org/) to build my website, and here's why.
+
+## Why Quarto?
+
+Quarto is an open-source scientific and technical publishing system that's perfect for academics because:
+
+- **Markdown-based**: Write content in simple, readable Markdown
+- **Multi-format support**: Publish to HTML, PDF, Word, and more
+- **Code integration**: Seamlessly include code, equations, and citations
+- **Blog functionality**: Built-in support for blog listings and RSS feeds
+- **GitHub Pages integration**: Easy deployment with automated workflows
+
+## Building the Website
+
+### Step 1: Setting Up Quarto
+
+First, I installed Quarto on my system. For Linux users, the installation is straightforward:
+
+```bash
+curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+sudo dpkg -i quarto-linux-amd64.deb
+```
+
+### Step 2: Project Structure
+
+I organized my website with the following structure:
+
+```
+├── _quarto.yml           # Main configuration file
+├── index.qmd             # CV homepage
+├── blog.qmd              # Blog listing page
+├── posts/                # Blog posts directory
+│   └── welcome/
+│       └── index.qmd     # Individual post
+├── styles.css            # Custom styling
+└── dxh5766-1-scaled.jpg  # Profile photo
+```
+
+### Step 3: Configuration
+
+The `_quarto.yml` file is the heart of the website, defining:
+
+- **Navigation bar**: Links to Home and Blog pages
+- **Theme**: I chose the "cosmo" theme for a clean, professional look
+- **Output directory**: Where the rendered HTML files go
+- **Social links**: GitHub and email icons in the navbar
+
+### Step 4: Converting My CV
+
+I already had my CV in Markdown format, so converting it to work with Quarto was simple. I just:
+
+1. Renamed `index.md` to `index.qmd`
+2. Added YAML frontmatter with a title
+3. Kept all the existing Markdown content
+
+### Step 5: Blog Setup
+
+Creating the blog functionality involved:
+
+1. Creating a `blog.qmd` file with a listing configuration
+2. Setting up a `posts/` directory for individual posts
+3. Writing posts in subdirectories (like `posts/welcome/`) for better organization
+
+Each blog post has YAML frontmatter specifying:
+- Title and author
+- Publication date
+- Categories/tags
+- A brief description
+
+### Step 6: GitHub Actions Deployment
+
+To automate deployment to GitHub Pages, I created a workflow file at `.github/workflows/publish.yml`. This workflow:
+
+1. Triggers on pushes to the main branch
+2. Sets up Quarto in the CI environment
+3. Renders the website
+4. Deploys to GitHub Pages automatically
+
+## The Result
+
+The final website features:
+
+- A professional CV homepage with my photo and complete academic history
+- A blog section for sharing research updates and technical posts
+- Clean, responsive design that works on mobile and desktop
+- Automatic deployment whenever I push changes to GitHub
+
+## Next Steps
+
+Some enhancements I'm considering:
+
+- Adding a publications page with BibTeX integration
+- Creating posts about my research on bacterial signaling pathways
+- Adding interactive visualizations of protein structures
+- Integrating Google Analytics to track visitors
+
+## Conclusion
+
+Quarto made it incredibly easy to create a professional academic website. The combination of simplicity (just writing Markdown), power (full control over layout and styling), and automation (GitHub Actions deployment) makes it an excellent choice for researchers who want to establish their online presence.
+
+If you're a student or researcher looking to build your own website, I highly recommend giving Quarto a try!
+
+## Resources
+
+- [Quarto Documentation](https://quarto.org/)
+- [Quarto Websites Guide](https://quarto.org/docs/websites/)
+- [Creating a Blog](https://quarto.org/docs/websites/website-blog.html)
+- [GitHub Pages with Quarto](https://quarto.org/docs/publishing/github-pages.html)

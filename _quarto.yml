@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Devin J. Hendrix"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/devinjhendrix
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:devinjhendrix@gmail.com
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Devin J. Hendrix"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
