@@ -55,7 +55,7 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
-<a img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
 <img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=Cryo-EM+Structure" alt="Cryo-EM protein structure" loading="lazy">
 <div class="gallery-caption">
 <h4>Cryo-EM Structure</h4>
