@@ -83,7 +83,7 @@ page-layout: full
 <img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
 <h4>Research Poster</h4>
-<p>Poster Presentation</p>
+<p>Poster Presentation 2024</p>
 </div>
 </a>
 
@@ -91,15 +91,15 @@ page-layout: full
 <img src="Hendrix Devin 2023 Research Poster.png" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
 <h4>Research Poster</h4>
-<p>Poster Presentation</p>
+<p>Poster Presentation 2023</p>
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum.">
-<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum; description: Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" alt="Research Poster" loading="lazy">
 <div class="gallery-caption">
 <h4>Sorghum Genotyping and Phenotyping</h4>
-<p>UNL 2022 Poster</p>
+<p>Poster Presentation 2022</p>
 </div>
 </a>
 
