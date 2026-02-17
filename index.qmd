@@ -55,30 +55,6 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum.">
-<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
-<div class="gallery-caption">
-<h4>Sorghum Genotyping and Phenotyping</h4>
-<p>UNL 2022 Poster</p>
-</div>
-</a>
-
-<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa.">
-<img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
-<div class="gallery-caption">
-<h4>Pseudomonas aeruginosa Secretion System</h4>
-<p>UIOWA 2023 Poster</p>
-</div>
-</a>
-
-<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=SDS-PAGE+Gel" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
-<img src="https://via.placeholder.com/600x450/383838/ffffff?text=SDS-PAGE+Gel" alt="SDS-PAGE gel electrophoresis" loading="lazy">
-<div class="gallery-caption">
-<h4>SDS-PAGE Analysis</h4>
-<p>Protein purification verification</p>
-</div>
-</a>
-
 <a href="https://via.placeholder.com/1200x900/002fa7/ffffff?text=ITC+Binding+Data" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Isothermal Titration Calorimetry; description: Thermodynamic binding analysis showing protein-protein interaction parameters.">
 <img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=ITC+Data" alt="Isothermal titration calorimetry plot" loading="lazy">
 <div class="gallery-caption">
@@ -100,6 +76,30 @@ page-layout: full
 <div class="gallery-caption">
 <h4>Laboratory Research</h4>
 <p>Experimental biochemistry</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=SDS-PAGE+Gel" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: SDS-PAGE Gel Electrophoresis; description: Protein purification steps visualized through SDS-PAGE showing purity and molecular weight.">
+<img src="https://via.placeholder.com/600x450/383838/ffffff?text=SDS-PAGE+Gel" alt="SDS-PAGE gel electrophoresis" loading="lazy">
+<div class="gallery-caption">
+<h4>SDS-PAGE Analysis</h4>
+<p>Protein purification verification</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa.">
+<img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<div class="gallery-caption">
+<h4>Pseudomonas aeruginosa Secretion System</h4>
+<p>UIOWA 2023 Poster</p>
+</div>
+</a>
+
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum.">
+<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<div class="gallery-caption">
+<h4>Sorghum Genotyping and Phenotyping</h4>
+<p>UNL 2022 Poster</p>
 </div>
 </a>
 
