@@ -55,19 +55,19 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
+<a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; description: Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
 <img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2022 at UNL; Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
-<img src="https://via.placeholder.com/600x450/002fa7/ffffff?text=Cryo-EM+Structure" alt="Cryo-EM protein structure" loading="lazy">
 <div class="gallery-caption">
-<h4>Cryo-EM Structure</h4>
-<p>Near-atomic resolution structural analysis</p>
+<h4>Sorghum Genotyping and Phenotyping</h4>
+<p>UNL 2022 Poster</p>
 </div>
 </a>
 
 <a href="https://via.placeholder.com/1200x900/e47839/ffffff?text=Western+Blot+Analysis" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
 <img src="" <img src="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation from Summer 2023 at UIOWA; Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
 <div class="gallery-caption">
-<h4>Western Blot Analysis</h4>
-<p>Protein expression validation</p>
+<h4>Pseudomonas aeruginosa Secretion System</h4>
+<p>UIOWA 2023 Poster</p>
 </div>
 </a>
 
