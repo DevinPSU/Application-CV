@@ -39,7 +39,7 @@ html, body {
 #quarto-content {
   background-color: var(--bg-primary);
   min-height: 100vh;
-  padding: 30px;
+  padding: 0;
 }
 
 /* Navigation bar styling */

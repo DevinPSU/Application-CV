@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - "assets/**"
+    - "Senior Journal Article Devin Hendrix Spr 2024 Final Draft From html_embedded.htm"
 
 website:
   title: "Devin J. Hendrix"

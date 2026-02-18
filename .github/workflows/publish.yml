@@ -26,6 +26,9 @@ jobs:
         with:
           version: 1.8.27
 
+      - name: Embed images into journal article HTML
+        run: python3 embed_images.py
+
       - name: Render Quarto Project
         run: quarto render
 
