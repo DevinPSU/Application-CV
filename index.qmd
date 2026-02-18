@@ -55,6 +55,12 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
+---
+title: "Senior Research Paper"
+format: html
+---
+<iframe src="Senior Journal Article Devin Hendrix Spr 2024 Final Draft From html.htm" width="100%" height="500px" title="Senior Research Paper"></iframe>
+
 <a href="Posters/2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
 <img src="Posters/2024UNL_page-0001.jpg" alt="Research Poster 2024" loading="lazy">
 <div class="gallery-caption">
