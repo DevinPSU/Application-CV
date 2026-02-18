@@ -37,10 +37,10 @@ page-layout: full
 </div>
 <div class="stat-card">
 <div class="stat-number">10+</div>
-<div class="stat-label">Poster Presentations</div>
+<div class="stat-label">Scientific Presentations</div>
 </div>
 <div class="stat-card">
-<div class="stat-number">$130K+</div>
+<div class="stat-number">$70K+</div>
 <div class="stat-label">Fellowship Awards</div>
 </div>
 </div>
