@@ -1,0 +1,1 @@
+I want you to display all the images from the Slides and Posters folders in the Research Highlights section of the website.  

@@ -55,61 +55,115 @@ page-layout: full
 <p class="section-intro">Visual documentation of my research journey across structural biology and biochemistry</p>
 <div class="research-gallery">
 
-<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
-<img src="2024UNL_page-0001.jpg" alt="Research Poster" loading="lazy">
+<a href="Posters/2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
+<img src="Posters/2024UNL_page-0001.jpg" alt="Research Poster 2024" loading="lazy">
 <div class="gallery-caption">
-<h4>Research Poster</h4>
+<h4>DCT Secretion System Poster</h4>
 <p>Poster Presentation 2024</p>
 </div>
 </a>
 
-<a href="Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
-<img src="Hendrix Devin 2023 Research Poster.png" alt="Research Poster" loading="lazy">
+<a href="Posters/Hendrix Devin 2023 Research Poster.png" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Characterizing PilZ Domain Protein Interactions With Type IV Pili Effectors In Biased Twitching Motility in Pseudomonas aeruginosa; description: Highlighting the importance of antibiotic development for patients with cystic fibrosis.">
+<img src="Posters/Hendrix Devin 2023 Research Poster.png" alt="Research Poster 2023" loading="lazy">
 <div class="gallery-caption">
-<h4>Research Poster</h4>
+<h4>PilZ Domain Protein Interactions</h4>
 <p>Poster Presentation 2023</p>
 </div>
 </a>
 
-<a href="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" alt="Research Poster" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum; description: Focusing on transgenic sorughum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
-<img src="Devin Hendrix Smr Research UNL 2022_page-0001.jpg" alt="Research Poster" loading="lazy">
+<a href="Posters/Devin Hendrix Smr Research UNL 2022_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Phenotyping and Genotyping Transgenic High-Energy Sorghum; description: Focusing on transgenic sorghum to increase the amount of triacylglycerol fatty acids produced by fuel crop.">
+<img src="Posters/Devin Hendrix Smr Research UNL 2022_page-0001.jpg" alt="Research Poster 2022" loading="lazy">
 <div class="gallery-caption">
 <h4>Sorghum Genotyping and Phenotyping</h4>
 <p>Poster Presentation 2022</p>
 </div>
 </a>
 
-<a href="2024UNL_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Investigating the Distributive Conjugal Transfer Secretion System Within Mycobacteria tuberculosis; description: Summer Research Internship UNL 2024.">
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 1; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" alt="Slide 1" loading="lazy">
 <div class="gallery-caption">
-<h4>Research Poster</h4>
-<p>Poster Presentation 2024</p>
+<h4>Oral Presentation</h4>
+<p>Slide 1 of 11</p>
 </div>
 </a>
 
-
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0002.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0003.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0004.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0005.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0006.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0007.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0008.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0009.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0011.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Presentation; description: Presentation on Mycobacteria tuberculosis.">
-<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0001.jpg" alt="Fluorescence microscopy image" loading="lazy">
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0002.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 2; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0002.jpg" alt="Slide 2" loading="lazy">
 <div class="gallery-caption">
-<h4>Slide Presentation</h4>
-<p>Slide Presentation</p>
+<h4>Oral Presentation</h4>
+<p>Slide 2 of 11</p>
 </div>
 </a>
 
-<a href="https://via.placeholder.com/1200x900/383838/ffffff?text=Laboratory+Research" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Laboratory Research; description: Hands-on research work in the laboratory conducting biochemical assays.">
-<img src="https://via.placeholder.com/600x450/383838/ffffff?text=Lab+Research" alt="Laboratory research work" loading="lazy">
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0003.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 3; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0003.jpg" alt="Slide 3" loading="lazy">
 <div class="gallery-caption">
-<h4>Laboratory Research</h4>
-<p>Experimental biochemistry</p>
+<h4>Oral Presentation</h4>
+<p>Slide 3 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0004.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 4; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0004.jpg" alt="Slide 4" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 4 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0005.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 5; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0005.jpg" alt="Slide 5" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 5 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0006.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 6; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0006.jpg" alt="Slide 6" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 6 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0007.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 7; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0007.jpg" alt="Slide 7" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 7 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0008.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 8; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0008.jpg" alt="Slide 8" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 8 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0009.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 9; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0009.jpg" alt="Slide 9" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 9 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 10; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0010.jpg" alt="Slide 10" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 10 of 11</p>
+</div>
+</a>
+
+<a href="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0011.jpg" class="gallery-item glightbox" data-gallery="research" data-glightbox="title: Oral Presentation – Slide 11; description: Mycobacteria tuberculosis Structural Biology Presentation.">
+<img src="Slides/12 Minute Oral Presentation Structural Biology Lab Gels_page-0011.jpg" alt="Slide 11" loading="lazy">
+<div class="gallery-caption">
+<h4>Oral Presentation</h4>
+<p>Slide 11 of 11</p>
 </div>
 </a>
 
